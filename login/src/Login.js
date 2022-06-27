@@ -20,12 +20,17 @@ function Login() {
                     <div className='buttontext'>
                         <text>Forget Password?</text>
                     </div>
-                    <button type='submit'>Login</button>
-                    <text className='SignIn'>Sign In</text>
+                    <button>Login</button>
+                    <text className='Text2'>Sign In?</text>
                 </div>
                 <div className='OrText'>
                     <text>------ OR -----</text>
+                </div>
+                <div className='BottomText'>
+                    <text>Join With your Favorite Social Media</text>
+                </div>
                     <div className='AllImage'>
+                        
                         <div className='image'>
                             <img className='LogoImage1' src='https://cdn-icons-png.flaticon.com/512/300/300221.png' alt='googel' />
                         </div>
@@ -42,7 +47,8 @@ function Login() {
 
                 </div>
             </div>
-        </div>
+            
+       
     )
 }
 
